@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "barbershop-scheduler-1cbed"
+  },
+  "targets": {
+    "barbershop-scheduler-1cbed": {
+      "hosting": {
+        "default": [
+          "barbershop-scheduler-1cbed"
+        ]
+      }
+    }
   }
 }
