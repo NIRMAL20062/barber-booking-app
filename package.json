@@ -1,0 +1,24 @@
+{
+  "name": "barber-booking-app",
+  "version": "1.0.0",
+  "description": "This is a barber booking app built using React and Firebase. It allows users to book appointments with barbers and shopkeepers.\r ## Getting Started\r To get started, follow these steps:\r 1. Clone the repository: `git clone https://github.com/kumar-pratik/barber-booking-app.git`\r 2. Install the dependencies: `npm install`\r 3. Start the development server: `npm start`\r 4. Open `http://localhost:3000` in your browser to view the app.\r ## Features\r - User authentication using Firebase Authentication\r - User can book appointments with barbers and shopkeepers\r - Shopkeeper can manage their barbers and customers\r - Responsive design\r ## Technologies Used\r - React\r - Firebase\r - CSS\r - HTML\r ## License\r This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIRMAL20062/barber-booking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NIRMAL20062/barber-booking-app/issues"
+  },
+  "homepage": "https://github.com/NIRMAL20062/barber-booking-app#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
