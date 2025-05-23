@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/NIRMAL20062/barber-booking-app/issues"
   },
-  "homepage": "https://github.com/NIRMAL20062/barber-booking-app#readme",
+  "homepage": "https://barbershop-scheduler-1cbed.web.app",
   "dependencies": {
     "firebase": "^11.8.1",
     "react": "^19.1.0",
