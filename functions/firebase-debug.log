@@ -1,0 +1,16 @@
+[debug] [2025-05-23T14:35:15.057Z] ----------------------------------------------------------------------
+[debug] [2025-05-23T14:35:15.062Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-05-23T14:35:15.063Z] CLI Version:   14.4.0
+[debug] [2025-05-23T14:35:15.063Z] Platform:      win32
+[debug] [2025-05-23T14:35:15.063Z] Node Version:  v22.16.0
+[debug] [2025-05-23T14:35:15.063Z] Time:          Fri May 23 2025 20:05:15 GMT+0530 (India Standard Time)
+[debug] [2025-05-23T14:35:15.064Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-23T14:35:15.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-23T14:35:15.334Z] > authorizing via signed-in user (kumar.nirmal2608@gmail.com)
+[debug] [2025-05-23T14:35:15.334Z] [iam] checking project barbershop-scheduler-1cbed for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-05-23T14:35:15.335Z] Checked if tokens are valid: true, expires at: 1748013339688
+[debug] [2025-05-23T14:35:15.335Z] Checked if tokens are valid: true, expires at: 1748013339688
+[debug] [2025-05-23T14:35:15.336Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/barbershop-scheduler-1cbed:testIamPermissions [none]
+[debug] [2025-05-23T14:35:15.337Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/barbershop-scheduler-1cbed:testIamPermissions x-goog-quota-user=projects/barbershop-scheduler-1cbed
+[debug] [2025-05-23T14:35:15.337Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/barbershop-scheduler-1cbed:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
