@@ -4,6 +4,7 @@ import ShopList from '../components/ShopList';
 import BookingForm from '../components/BookingForm';
 import BookingHistory from '../components/BookingHistory';
 import Profile from '../components/Profile';
+import Notification from '../components/Notification';
 
 function UserInterface({ user }) {
   const [shops, setShops] = useState([]);
@@ -25,11 +26,13 @@ function UserInterface({ user }) {
         <button className="button" onClick={() => setView('booking')}>Book Now</button>
         <button className="button" onClick={() => setView('history')}>Booking History</button>
         <button className="button" onClick={() => setView('profile')}>Profile</button>
+        <button className="button" onClick={() => setView('notifications')}>Notifications</button>
       </div>
       {view === 'shops' && <ShopList shops={shops} />}
       {view === 'booking' && <BookingForm user={user} shops={shops} />}
       {view === 'history' && <BookingHistory user={user} />}
       {view === 'profile' && <Profile user={user} />}
+      {view === 'notifications' && <Notification user={user} role="user" />}
     </div>
   );
 }

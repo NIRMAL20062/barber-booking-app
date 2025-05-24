@@ -21,6 +21,14 @@ function BookingForm({ user, shops }) {
     };
     try {
       await db.collection('bookings').add(booking);
+      // Create notification for shopkeeper
+      await db.collection('notifications').add({
+        message: `New booking request for ${service} at ${time}`,
+        shopId,
+        userId: user.uid,
+        status: 'unread',
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      });
       alert('Booking request sent!');
     } catch (error) {
       alert(error.message);
